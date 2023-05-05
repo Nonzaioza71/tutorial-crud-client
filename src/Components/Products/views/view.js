@@ -87,7 +87,7 @@ export default class View extends Component {
                     </div>
                 </div>
                 <hr className='text-light' />
-                <table className='table table-light'>
+                <table className='table table-dark'>
                     <thead>
                         <tr>
                             <th style={{width: '5%'}}>

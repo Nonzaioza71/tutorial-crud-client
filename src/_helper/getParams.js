@@ -1,5 +1,4 @@
 function getParams(path) {
-    // example input path : /product/:view_type/:product_no
     let path_name = window.location.pathname
     let arr_path = path.slice(1, path.length).split('/')
     let _idxRemovePath = []
@@ -20,12 +19,8 @@ function getParams(path) {
     })
 
     path_name.map((item, key)=>{
-        // console.log({[arr_path[key].toString().replace(':', '')] : item});
         res[arr_path[key].toString().replace(':', '')] = item
     })
-    // console.log(arr_path)
-    // console.log(path_name)
-    // console.log(res)
     return res
 }
 

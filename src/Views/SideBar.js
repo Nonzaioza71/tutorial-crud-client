@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 export default class SideBar extends Component {
     render() {
         return (
-            <div className='position-fixed' style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
+            <div className='position-fixed' style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }} id="sidebar">
                 <CDBSidebar textColor="#fff" backgroundColor="#333">
                     {/* <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
                         <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
